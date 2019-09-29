@@ -145,8 +145,8 @@ var datas = [];
 $('#search-google-btn2').click(function () {
     var meal = $('#whatmeal').val();
     var time = $('#selectmeal option:selected').val();
-    alert(time);
-    alert('SELECT '+time+' WHERE A=date"'+meal+'"');
+    //alert(time);
+    //alert('SELECT '+time+' WHERE A=date"'+meal+'"');
     $('#showData').html('');
     datas = [];
 
