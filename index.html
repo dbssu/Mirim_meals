@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<title>미림급식알림이</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <link rel="shortcut icon" type="image/x-icon" href="https://www.e-mirim.hs.kr/fbgraph.png"/>
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="logo">Mirim-meal</a>
+				<!--<nav class="right">
+					<a href="#" class="button alt">Log in</a>
+				</nav> -->
+			</header>
+
+		<!-- Banner -->
+			<section id="banner">
+				<div class="content">
+					<h1>미림급식알림이</h1>
+					<p>오늘의 급식과 내일의 급식을 알아보세요.<br>먹고 싶은 급식도 신청할 수 있답니다.</p>
+					<ul class="actions">
+						<li><a href="#one" class="button scrolly">급식 알아보기</a></li>
+					</ul>
+				</div>
+			</section>
+
+		<!-- One -->
+			<section id="one" class="wrapper">
+					<div class="todaymeal">
+
+						<div>
+							<h1>급식 메뉴를 알아보세요</h1>
+							<input type="date" id="whatmeal">
+							<select id="selectmeal">
+								<option value="B">조식</option>
+								<option value="C">중식</option>
+								<option value="D">석식</option>
+							</select>
+							<h3>날의 급식은?</h3><br>
+							<button id="search-google-btn2">검색</button>
+							<div id="showData"></div>
+						</div>
+					</div>
+					
+			</section>
+
+		<!-- Two -->
+			<section id="two" class="wrapper style1 special">
+				<div class="inner">
+					<h2>먹고 싶은 급식 신청하기</h2>
+					<figure>
+						<label>학번</label>
+						<input type="text" id="num" name="num" placeholder="학번을 입력해주세요"><br>
+						<label>이름</label>
+						<input type="text" id="name" name="name" placeholder="이름을 입력해주세요"><br>
+						<label>메뉴</label>
+						<input type="text" id="like" placeholder="ex) 마라탕">
+					    <footer>
+					        <button id="google-submit">신청하기</button>
+					        <div id="snackbar"></div>
+					    </footer>
+					</figure>
+				</div>
+			</section>
+
+		
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<h2>그 외의 문의</h2>
+					<ul class="actions">
+						<li><span class="icon fa-phone"></span> <a href="#">02-872-4071 (Fax 02-887-0856)</a></li>
+						<li><span class="icon fa-map-marker"></span> (08821) 서울시 관악구 호암로 546 (신림동)</li>
+					</ul>
+				</div>
+				<div class="copyright">
+					&copy; 2019. 강윤수. All rights reserved.
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+            <script src="assets/js/main.js"></script>
+            <script src="assets/js/search_meal.js"></script>
+            <script src="assets/js/want_meal.js"></script>
+	</body>
+</html>
